@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced functions
+        
+    </title>
+</head>
+<body>
+
+    <button onclick="" class="js-button"></button>
+                
+    <script>
+        /*
+        const buttonElement = document.querySelector('.js-button')
+
+        const eventListener = () =>{
+            console.log('click')
+        }    
+
+        buttonElement.addEventListener('click', eventListener)
+
+        buttonElement.removeEventListener('click', eventListener)
+
+        buttonElement.addEventListener('click', () =>{
+            console.log('click2')
+        })*/
+
+        /*
+        function greeting(){
+            console.log('hello')
+        }
+        greeting()
+
+        const num = 2;
+
+        // Anonymous function
+        const function1 = function(){
+            console.log('hello2')
+        }
+
+        function1()
+        console.log(function1)
+        console.log(typeof function1)
+
+        const object1 = {
+            num: 2,
+            fun: function(){
+                console.log('hello3')
+            }
+        }
+
+        object1.fun()
+
+        function display(param){
+            console.log(param)
+        }
+        display(2)
+
+        function run (param){
+            param()
+        }
+
+        run(function(){
+            console.log('hello4')
+        })
+        */
+        //setTimout = allows us ti run a function in the future
+
+        // setTimeout(function(){
+        //     console.log('timeout')
+        //     console.log('timeout2')
+        // }, 3000) // second param is the time we want the function to run, it's always in milliseconds.
+
+        //console.log('next line')
+
+        // Asynchronousncode means that it won't wait for a line to finish before going to the next line while a synchronous code will wait for one line to finish executing before going to the next line
+
+        // setInterval(function(){
+        //     console.log('interval')
+        // }, 3000) // set interval keeps running the function at every given time interval
+
+        // forEach function
+        /*
+        [
+            'make dinner',
+            'wash dishes',
+            'watch youtube'
+        ].forEach( (value, index) => {
+            if (value === 'wash dishes'){
+                return;
+            }
+
+            console.log(index)
+            console.log(value)
+        })
+
+        const regularFunction = function(param){
+            console.log('hello')
+        }
+
+
+        const arrowFunction = (param, param2) => {
+            console.log('hello')
+        }
+        arrowFunction()
+
+        const oneParam = param => {
+            console.log (param + 1)
+        }
+        oneParam()
+
+        const oneLine = () => 2 + 3;
+        console.log(oneLine())
+
+        const object2 = {
+            method: () => {
+                
+            }, 
+            method(){
+
+            }
+        }
+        */
+
+        /*
+        [1, -3, 5].filter((value, index) =>{
+            if(value >= 0){
+                return true;
+            } else {
+                return true;
+            }
+            
+        })
+
+        */
+
+        console.log([1, 1, 3].map(value => value * 2))
+
+        
+    </script>
+</body>
+</html>
